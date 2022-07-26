@@ -29,20 +29,20 @@
                         <p class=" mb-5">Complete the form to register</p>
           
                         <div class="form-outline form-dark mb-4">
-                          <input type="email" id="typeEmailX" class="form-control form-control-lg" />
+                          <input type="email" id="typeEmailX" class="form-control form-control-md" />
                           <label class="form-label" for="typeEmailX">Email</label>
                         </div>
                         <div class="form-outline form-dark mb-4">
-                            <input type="email" id="typeUsernameX" class="form-control form-control-lg" />
+                            <input type="email" id="typeUsernameX" class="form-control form-control-md" />
                             <label class="form-label" for="typeUsernameX">Username</label>
                           </div>
                         <div class="form-outline form-dark mb-4">
-                            <input type="email" id="typeFullNameX" class="form-control form-control-lg" />
+                            <input type="email" id="typeFullNameX" class="form-control form-control-md" />
                             <label class="form-label" for="typeFullNameX">Full Name</label>
                         </div>  
           
                         <div class="form-outline form-dark mb-4">
-                          <input type="password" id="typePasswordX" class="form-control form-control-lg" />
+                          <input type="password" id="typePasswordX" class="form-control form-control-md" />
                           <label class="form-label" for="typePasswordX">Password</label>
                         </div>
           
@@ -67,12 +67,15 @@
               </div>
             </div>
           </section>
-
+          <div id="footer-placeholder" style="margin-top: 128px;"></div>
 
 
     <script>
         $(function(){
           $("#nav-placeholder").load("Components/nav.html");
+        });
+        $(function(){
+            $("#footer-placeholder").load("Components/footer.html")
         });
     </script>
     <script src="js/bootstrap.bundle.js"></script>

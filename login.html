@@ -29,12 +29,12 @@
                         <p class=" mb-5">Please enter your login and password!</p>
           
                         <div class="form-outline form-dark mb-4">
-                          <input type="email" id="typeEmailX" class="form-control form-control-lg" />
+                          <input type="email" id="typeEmailX" class="form-control form-control-md" />
                           <label class="form-label" for="typeEmailX">Email</label>
                         </div>
           
                         <div class="form-outline form-dark mb-4">
-                          <input type="password" id="typePasswordX" class="form-control form-control-lg" />
+                          <input type="password" id="typePasswordX" class="form-control form-control-md" />
                           <label class="form-label" for="typePasswordX">Password</label>
                         </div>
           
@@ -61,12 +61,15 @@
               </div>
             </div>
           </section>
-
+    <div id="footer-placeholder" style="margin-top: 24px;"></div>
 
 
     <script>
         $(function(){
           $("#nav-placeholder").load("Components/nav.html");
+        });
+        $(function(){
+            $("#footer-placeholder").load("Components/footer.html")
         });
     </script>
     <script src="js/bootstrap.bundle.js"></script>
